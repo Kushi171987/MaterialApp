@@ -36,7 +36,7 @@ const appRoutes: Routes = [
       BrowserAnimationsModule,
       RouterModule.forRoot(appRoutes, {
          enableTracing: true,
-         useHash: true,
+         // useHash: true,
          onSameUrlNavigation: 'ignore'
       }),
       LayoutModule,
